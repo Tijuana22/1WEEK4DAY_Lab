@@ -1,7 +1,7 @@
-function minusOne(num10){
-    return num10 - 1;
+function minusOne(num){
+    return num - 1;
 }
-console.log(minusOne(10) -1);
+console.log(minusOne(10));
 
 
 function makeSentence(){
@@ -16,8 +16,11 @@ console.log(makeSentence());
 
 function getLastElement(arr){
     return arr[arr.length-1]
+
 }
 
     
 
 console.log(getLastElement([1,2,3,4,5]));
+console.log(getLastElement (['a','b','c']));
+console.log(getLastElement([1, 2, 3], [4,5,6]));
